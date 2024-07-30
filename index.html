@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +12,188 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-        <header class="header">
-            <div class="header-content">
-                <nav class="logo">
-                    <img src="./assets/img/logos/adl.png" alt="">
-                    <h1> Blog FrontEnd</h1>
-                </nav>
+    <header class="header">
+        <div class="header-content">
+            <nav class="logo">
+                <img src="./assets/img/logos/adl.png" alt="">
+                <h1> Blog FrontEnd</h1>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+
+        <article class="articulo novedades-content">
+            <div class="articulo__titulo">
+                <h1>Novedades</h1>
             </div>
-        </header>
-        <main class="main-content">
-</body>
-</html>
+            <section class="articulo__content">
+                <div class="articulo__left">
+                    <div class="articulo__info">
+                        <img class="articulo__imagen" src="./assets/img/post/bootstrap.png" alt="Imagen de la noticia">
+                        <p class="articulo__fecha">24 Noviembre, 2022</p>
+                        <h2 class="articulo__subtitulo">Modifica el tema de Bootstrap con variables CSS</h2>
+                        <div class="tag">
+                            <div class="tag__imagen">
+                                <img src="./assets/img/logos/adl.png" alt="Logo Desafio Latam">
+                            </div>
+                            <div class="tag__autor">
+                                <p>Desafío Latam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="articulo-right">
+
+                    <!-- Herencia con JS -->
+                    <div class="articulo__info">
+                        <img class="articulo__imagen" src="./assets/img/post/Herencia-JS.png"
+                            alt="Imagen de la noticia">
+                        <div class="descripcion">
+                            <p class="descripcion__fecha">24 Noviembre, 2022</p>
+                            <h2 class="descripcion__subtitulo">Herencia en JavaScript</h2>
+                            <div class="tag">
+                                <div class="tag__imagen">
+                                    <img src="./assets/img/logos/adl.png" alt="Logo Desafio Latam">
+                                </div>
+                                <div class="tag__autor">
+                                    <p>Desafio Latam</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Etiquetas Semánticas -->
+                    <div class="articulo__info">
+                        <img class="articulo__imagen" src="./assets/img/post/Etiquetas-semánticas-HTML.png"
+                            alt="Imagen de la noticia">
+                        <div class="descripcion">
+                            <p class="articulo__fecha">24 Noviembre, 2022</p>
+                            <h2 class="articulo__subtitulo">Etiquetas Semánticas</h2>
+                            <div class="tag">
+                                <div class="tag__imagen">
+                                    <img src="./assets/img/logos/adl.png" alt="Logo Desafio Latam">
+                                </div>
+                                <div class="tag__autor">
+                                    <p>Desafío Latam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Componentes React -->
+                    <div class="articulo__info">
+                        <img class="articulo__imagen" src="./assets/img/post/reactComponents.png"
+                            alt="Imagen de la noticia">
+                        <div class="descripcion">
+                            <p class="articulo__fecha">24 Noviembre, 2022</p>
+                            <h2 class="articulo__subtitulo">Componentes React</h2>
+                            <div class="tag">
+                                <div class="tag__imagen">
+                                    <img src="./assets/img/logos/adl.png" alt="Logo Desafio Latam">
+                                </div>
+                                <div class="tag__autor">
+                                    <p>Desafío Latam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+        </article>
+
+        <!-- POPULARES -->
+        <article class="articulo populares__content">
+            <div class="articulo__titulo">
+                <h1>Populares</h1>
+            </div>
+            <section class="articulo__content">
+                <div class="articulo__left">
+                    <div class="articulo__info">
+                        <img class="articulo__imagen" src="./assets/img/post/vue-components.png"
+                            alt="Imagen de la noticia">
+                        <p class="articulo__fecha">24 Noviembre, 2022</p>
+                        <h2 class="articulo__subtitulo">Componentes Vue</h2>
+                        <div class="tag">
+                            <div class="tag__imagen">
+                                <img src="./assets/img/logos/adl.png" alt="Logo Desafio Latam">
+                            </div>
+                            <div class="tag__autor">
+                                <p>Desafío Latam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="articulo__info">
+                        <img class="articulo__imagen" src="./assets/img/post/api-js.png" alt="Imagen de la noticia">
+                        <p class="articulo__fecha">24 Noviembre, 2022</p>
+                        <h2 class="articulo__subtitulo">Consumo de API con JavaScript</h2>
+                        <div class="tag">
+                            <div class="tag__imagen">
+                                <img src="./assets/img/logos/adl.png" alt="Logo Desafio Latam">
+                            </div>
+                            <div class="tag__autor">
+                                <p>Desafío Latam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="articulo__info">
+                        <img class="articulo__imagen" src="./assets/img/post/sass.jpg" alt="Imagen de la noticia">
+                        <p class="articulo__fecha">24 Noviembre, 2022</p>
+                        <h2 class="articulo__subtitulo">CSS reutilizable con Sass</h2>
+                        <div class="tag">
+                            <div class="tag__imagen">
+                                <img src="./assets/img/logos/adl.png" alt="Logo Desafio Latam">
+                            </div>
+                            <div class="tag__autor">
+                                <p>Desafío Latam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="articulo__info">
+                        <img class="articulo__imagen" src="./assets/img/post/bootstrap.png" alt="Imagen de la noticia">
+                        <p class="articulo__fecha">24 Noviembre, 2022</p>
+                        <h2 class="articulo__subtitulo">Componentes Bootstrap</h2>
+                        <div class="tag">
+                            <div class="tag__imagen">
+                                <img src="./assets/img/logos/adl.png" alt="Logo Desafio Latam">
+                            </div>
+                            <div class="tag__autor">
+                                <p>Desafío Latam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <aside class="articulo-right">
+                    <div class="box">
+                        <img src="./assets/img/logos/html.png" alt="" />
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/logos/js.png" alt="" />
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/logos/css.png" alt="" />
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/logos/react.png" alt="" />
+                        <h3>React</h3>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/logos/vue.png" alt="" />
+                        <h3>Vue</h3>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/logos/bootstrap-logo.png" alt="" />
+                        <h3>Bootstrap</h3>
+                    </div>
+                </aside>
+            </section>
+        </article>
+    </main>

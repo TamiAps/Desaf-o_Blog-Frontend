@@ -123,6 +123,8 @@ h3 {
   color: #fff;
   font-weight: bold;
 }
+
+● #000000
 .main-content .populares__content .articulo-right .box:nth-child(1) {
   background-color: #E93E30;
 }
@@ -307,7 +309,7 @@ body {
 
 /* Efecto de hover en el botón de suscripción */
 .subscription-button:hover {
-  background-color: #647568; /* Color de fondo verde más oscuro al pasar el cursor */
+  background-color: #000000; /* Color de fondo verde más oscuro al pasar el cursor */
 }
 
 
